@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Mike and the Monsters</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!--
+<script src="/!/static/jslib/modernizr/2.6.2/modernizr.min.js"></script>
+-->
+<script src="/!/static/jslib/jquery/3.3.1/jquery.min.js"></script>
+<script src="/!/static/jslib/jquery-ui/1.12.1/jquery-ui.min.js"></script>
+<script src="/!/static/jslib/sidr/2.2.1/jquery.sidr.js"></script>
+<link rel="stylesheet" href="/!/static/jslib/sidr/2.2.1/jquery.sidr.light.css" />
+<script src="/!/static/jslib/mediaelement/4.2.7/build/mediaelement-and-player.min.js"></script>
+<link rel="stylesheet" href="/!/static/jslib/mediaelement/4.2.7/build/mediaelementplayer.css" />
+<!--
+<script src="/!/static/jslib/mediaelement-playlist/A/mep-feature-playlist.js"></script>
+<link rel="stylesheet" href="/!/static/jslib/mediaelement-playlist/A/mep-feature-playlist.css" />
+-->
+<script src="/!/static/jslib/lightbox/2.10.0/dist/js/lightbox.min.js"></script>
+<link rel="stylesheet" href="/!/static/jslib/lightbox/2.10.0/dist/css/lightbox.min.css" />
+<script src="/!/static/jslib/font-awesome/5.0.2/svg-with-js/js/fontawesome-all.min.js"></script>
+<script src="/!/static/cms/2.0.2/functions.js"></script>
+<link rel='stylesheet' href='/!/static/cms/2.0.2/core.css' />
+<link rel='stylesheet' href='/!/static/cms/2.0.2/teasers.css' />
+<link rel='stylesheet' href='/theband/style.css' />
+<script>
+if ( typeof UsersModule == 'object' ) {
+UsersModule.allowPasswordRetrieval=true;
+UsersModule.allowAutoRegistration=true;
+}
+</script>
+<style>
+@font-face { font-family: main-heading-font; src: url(/@/SiteBuilder/_skins/17/fonts/main_heading.ttf)}
+div#header h1#main_heading { font-family: main-heading-font; font-size: 30px; font-weight: normal; color: #000; transform: rotate(-2deg); }
+@font-face { font-family: menu-font; src: url(/@/SiteBuilder/_skins/17/fonts/menu.ttf) }
+div#main_links a, div#main_menu a { text-decoration: none; font-family: menu-font; display: inline-block; font-size: 12px; color: #fff; }
+div#main_links a:hover, div#main_menu a:hover { color: silver; text-decoration: underline; }
+div#main_links a.menu-item-selected { color: silver; }
+@font-face { font-family: page-heading-font; src: url(/@/SiteBuilder/_skins/17/fonts/page_heading.ttf) }
+h2 { font-family: page-heading-font; font-size: 24px; color: #ff0000; }
+@font-face { font-family: teaser-heading-font; src: url(/@/SiteBuilder/_skins/17/fonts/teaser.ttf) }
+div#teasers div.teaser_heading { font-family: teaser-heading-font; font-weight: normal; font-size: 14px; color: #000; }
+div#site_photo { background-repeat: no-repeat; background-position: top center; background-size: cover; }
+</style>
+<link rel='stylesheet' href='/@/SiteBuilder/_skins/17/style/_main.css' media='screen' />
+</head><body class='profiles page _home' id='theband'>
+<div id='overlayer' style='display:none'><div id='overlayer_window'><div id='overlayer_content'></div><div id='overlayer_close'><a href='javascript:void(0)' onclick='javascript:closeOverlayer();return false;'>CLOSE</a></div></div></div>
+<div id='header_content_footer_wrapper'>
+<div id='header_content_footer_wrapper_2'>
+<div id='site_photo'  style='width:253px; background-image: url(/@/SiteBuilder/_skins/17/images/matte/overlay.png), url(/@/SiteBuilder/_skins/17/.custom/photos/MAIN-scaled.jpg); background-size:cover,contain; '><img style='visibility:hidden' src='/@/SiteBuilder/_skins/17/.custom/photos/MAIN-scaled.jpg' /></div>
+<div id='header'>
+<h1 id='main_heading'><span><a href='/theband/'>Mike and the Monsters</a></span></h1>
+</div> <!-- div#header -->
+<div id='main_links'>
+<ul class='main_link_group' id='main_link_group_1'>
+<li class='main_link selected' id='theband_main_link'><a href='/theband/' class='menu-item-selected' >The&nbsp;Band</a></li>
+<li class='main_link' id='showdates_main_link'><a href='/showdates/' >Show&nbsp;Dates</a></li>
+<li class='main_link' id='songlist_main_link'><a href='/songlist/' >Song&nbsp;List</a></li>
+<li class='main_link' id='promokitsandposters_main_link'><a href='/promokitsandposters/' >Press&nbsp;Kit&nbsp;and&nbsp;Posters</a></li>
+<li class='main_link' id='photos_main_link'><a href='/photos/' >Photos</a></li>
+<li class='main_link' id='monstervideos_main_link'><a href='/monstervideos/' >Videos</a></li>
+<li class='main_link' id='guestbook_main_link'><a href='/guestbook/' >Guestbook</a></li>
+<li class='main_link' id='monsterblog_main_link'><a href='/monsterblog/' >Monster&nbsp;Blog</a></li>
+<li class='main_link' id='monsterlinks_main_link'><a href='/monsterlinks/' >Links</a></li>
+<li class='main_link' id='contact_main_link'><a href='/contact/' >Contact</a></li>
+</ul> <!-- ul#main_link_group_1 -->
+</div> <!-- div#main_links (div#main_menu for skeleton 1) -->
+<div id='content_wrapper'>
+<div id='cms-container-content'>
+<div id='content'>
+<h2 id='page_title'>The Band</h2>
+
+<div class='intro floatwrapper'>
+<div class='intro_photo thumbnail'><img src='/@/TheBand/files/intro-photo-thumb.jpg' alt='' /></div>
+ <br />EVERYTHING your party/rock soul can handle in one show!!!</div>
+<div class='profile'>
+<div class='list'>
+<div class='entry floatwrapper odd'>
+<div class='thumbnail'><a href='./?id=6'><img src='/@/TheBand/_photos/168/photo-thumb.jpg' alt='' class='teaser_thumbnail' /></a></div>
+<div class='name heading'>Mike and the Monsters </div>
+<div class='description'><p style="text-align: justify; padding-left: 30px;"><span><span><span style="font-size: small;"><span style="text-decoration: underline;"><strong><em></em></strong></span></span></span></span></p>
+<p style="text-align: justify; padding-left: 30px;"><span><span><span style="font-size: small;"><span style="text-decoration: underline;"><strong><em><span style="font-size: medium;">*BE SURE TO CLICK ON OUR VIDEO PAGE FOR DEMO!*</span></em></strong></span></span></span></span></p>
+<p style="text-align: justify; padding-left: 30px;"><span><span><span style="font-size: small;"><span style="text-decoration: underline;"><strong><em><span style="font-size: medium;">&ldquo;A female fronted&nbsp;Five piece rock powerhouse&rdquo;</span></em></strong></span> </span></span></span></p>
+<p style="text-align: justify;"><span><span style="font-size: small;">Mike and the Monsters cover a wide range and variety of music, performed with energy, professionalism, style and true rock and roll conviction! Modern sounds, classic rock and maximum danceable party rock make up the Monsters musical repertoire. We are an extremely INTERACTIVE band!!! Audience participation is a MUST at a Mike and the Monster's show!!! So, dont be shy! Cause we're gonna have you singing, dancing, playing a little air guitar and having a few toasts with our audience, whether&nbsp; it be a birthday, anniversay, or just because it's 5 O'clock...somewhere!!! A live experience with "Mike and the Monsters" is like being part of the band!! </span></span></p>
+<p style="text-align: justify;"><span><span style="font-size: small;">All Monster members are experienced Capital District and regional music veterans, coming together with one goal <em>" to deliver the goods&ldquo;</em> with a great live show and to keep people coming back for more! Deep musicianship, multi-vocals along with the great selling point and secret weapon in lead vocalist Michaele Ann Flynn, build a solid foundation for a Monster house of good times and great music!!!</span></span></p></div>
+<div class='more_link'><a href='?id=6'>More</a></div>
+</div> <!-- closes div.entry -->
+
+<div class='entry floatwrapper even'>
+<div class='thumbnail'><a href='/@/TheBand/_photos/169/photo-full.jpg' data-lightbox='blpcljps' data-title=''><img src='/@/TheBand/_photos/169/photo-thumb.jpg' /></a></div>
+<a style='display:none' href='/@/TheBand/_photos/171/photo-full.jpg' data-lightbox='blpcljps' data-title=''><img src='/@/TheBand/_photos/171/photo-thumb.jpg' alt='' /></a>
+<a style='display:none' href='/@/TheBand/_photos/172/photo-full.jpg' data-lightbox='blpcljps' data-title=''><img src='/@/TheBand/_photos/172/photo-thumb.jpg' alt='' /></a>
+<a style='display:none' href='/@/TheBand/_photos/173/photo-full.jpg' data-lightbox='blpcljps' data-title=''><img src='/@/TheBand/_photos/173/photo-thumb.jpg' alt='' /></a>
+<a style='display:none' href='/@/TheBand/_photos/174/photo-full.jpg' data-lightbox='blpcljps' data-title=''><img src='/@/TheBand/_photos/174/photo-thumb.jpg' alt='' /></a>
+<a style='display:none' href='/@/TheBand/_photos/175/photo-full.jpg' data-lightbox='blpcljps' data-title=''><img src='/@/TheBand/_photos/175/photo-thumb.jpg' alt='' /></a>
+<div class='name heading'>Michaele Ann Flynn &#34;Mike&#34;         </div>
+<div class='position'>Lead Vocalist</div>
+<div class='description'><p style="text-align: justify;">Hi ya! I'm Michaele Ann (aka - Mike)&nbsp;and I have&nbsp;been a long time rocker in the upstate capital area. As you can tell by all the photos.. I'm&nbsp;infamous for changing my "Look!" (Got to keep it&nbsp;FRESH!)over the years&nbsp;I have fronted several original and cover bands performing from Albany, N.Y. and it's surrounding cities&nbsp;including &nbsp;Massachusettes, Boston, Syracuse, and&nbsp;New York City. The band&nbsp;I have been&nbsp; noted for is "Tokyo Rose"&nbsp;also known as&nbsp;"Shovelhead." This&nbsp;original band of 9 years&nbsp;had an "Evanescence/Pantera" feel. With Shovelhead in the past,&nbsp;I took a short&nbsp;break. Needing to get back to performing,&nbsp;I opted to build a band complete with some of the most established and well rounded players in the&nbsp;area. Creating one of the best Pop/Rock cover bands in the area. As a front person, my goal is to be as interactive&nbsp;with our audience as possible!! I may borrow your hat, have&nbsp;a seat&nbsp;on your lap, share some wings, have a shot, dance on the bar,&nbsp;or have a chorus join me on stage!!&nbsp;WHATEVER&nbsp; strikes my mood at the moment!! Life should be a party! At least for the few hours you spend with US!!&nbsp; :-)"Mike (ME)...&nbsp;and the Monsters"&nbsp;are rockin everyone with the newest, hottest covers, and the best classic's! See you at the next show!! Peace &amp; Love!!! Mike!!! (BTW - YES..Mike is my real name!)</p></div>
+<div class='email'><span class='label'>Email:</span> <a href='mailto:mike@mikeandthemonsters.com'>mike@mikeandthemonsters.com</a></div>
+</div> <!-- closes div.entry -->
+
+<div class='entry floatwrapper odd'>
+<div class='thumbnail'><a href='/@/TheBand/_photos/166/photo-full.jpg' data-lightbox='dkotpzex' data-title=''><img src='/@/TheBand/_photos/166/photo-thumb.jpg' /></a></div>
+<div class='name heading'>Michael Smith</div>
+<div class='position'>Drums/Vocals</div>
+<div class='description'>Mike Smith on Drums!!! (In this band he is known as &#34;M.J.&#34;.... as there is only 1 Mike allowed in &#34;Mike and the Monsters!&#34;) M.J. has a long history in the Rock-n-roll music business. It must be the Angelic face,and big smile that keeps him so young!!  Seriously..M.J.&#39;s fabulous  creation of the &#34;Judas Priest&#34; cover band known as &#34;British Steele&#34; is one of his greatest accomplishments! So glad M.J. decided to join forces with &#34;Mike and the Monsters!&#34; for over 5 years NOW!! U ROCK Brother!! </div>
+<div class='email'><span class='label'>Email:</span> <a href='mailto:MS@mikeandthemonsters.com'>MS@mikeandthemonsters.com</a></div>
+</div> <!-- closes div.entry -->
+
+<div class='entry floatwrapper even'>
+<div class='thumbnail'><a href='/@/TheBand/_photos/154/photo-full.jpg' data-lightbox='jivjvgwf' data-title=''><img src='/@/TheBand/_photos/154/photo-thumb.jpg' /></a></div>
+<a style='display:none' href='/@/TheBand/_photos/155/photo-full.jpg' data-lightbox='jivjvgwf' data-title=''><img src='/@/TheBand/_photos/155/photo-thumb.jpg' alt='' /></a>
+<div class='name heading'>Vincent Rao</div>
+<div class='position'>Guitar</div>
+<div class='description'>Vince, also known as &#34;Shred&#34; has come to &#34;Mike and the Monsters&#34; to rip it up!!! Vince&#39;s history takes us back to an all original band &#34;Monolith&#34; performing from 1985 through 1995. After a decade, he then joined forces with some of our other current &#34;Monsters&#34; to &#34;rock it&#34; in a  &#34;Judas Priest&#34; tribute band called &#34;British Steel&#34; which currently still kicks ass in the upstate area!(Check them out!!)Vince plays &#34;Jackson Guitars&#34; and &#34;Marshall&#34; amps. .. Vince is awesome!!! And he takes over on lead vocals now &amp; then..wowing the ladies!! ;-} Come out and party with him!!!</div>
+</div> <!-- closes div.entry -->
+
+<div class='entry floatwrapper odd'>
+<div class='thumbnail'><a href='/@/TheBand/_photos/146/photo-full.jpg' data-lightbox='xoakqrnw' data-title=''><img src='/@/TheBand/_photos/146/photo-thumb.jpg' /></a></div>
+<div class='name heading'>Andy Peseka</div>
+<div class='position'>Guitar</div>
+<div class='description'>Andy is a kind of quiet guy. So... I guess if you want some info.. your gonna have to show up at one of our gigs and ask him yourself! I know one thing.....he KICKS it HARD ON GUITAR!!! :) Andy also is a member of the &#34;Judas Priest&#34; tribute band &#34;British Steele!&#34; Soooo.. check him out there too!!! Andy has the BIGGEST hair in the band!! ;-)</div>
+</div> <!-- closes div.entry -->
+
+<div class='entry floatwrapper even'>
+<div class='thumbnail'><a href='/@/TheBand/_photos/149/photo-full.jpg' data-lightbox='tuwztlbm' data-title=''><img src='/@/TheBand/_photos/149/photo-thumb.jpg' /></a></div>
+<a style='display:none' href='/@/TheBand/_photos/150/photo-full.jpg' data-lightbox='tuwztlbm' data-title=''><img src='/@/TheBand/_photos/150/photo-thumb.jpg' alt='' /></a>
+<a style='display:none' href='/@/TheBand/_photos/151/photo-full.jpg' data-lightbox='tuwztlbm' data-title=''><img src='/@/TheBand/_photos/151/photo-thumb.jpg' alt='' /></a>
+<a style='display:none' href='/@/TheBand/_photos/152/photo-full.jpg' data-lightbox='tuwztlbm' data-title=''><img src='/@/TheBand/_photos/152/photo-thumb.jpg' alt='' /></a>
+<a style='display:none' href='/@/TheBand/_photos/153/photo-full.jpg' data-lightbox='tuwztlbm' data-title=''><img src='/@/TheBand/_photos/153/photo-thumb.jpg' alt='' /></a>
+<div class='name heading'>Larry &#34;Tucker&#34;</div>
+<div class='position'>Bass Guitar / Backing Vocals</div>
+<div class='description'>Larry, known as &#34;Tucker&#34; to most.. is the &#34;Monsters&#34; backbone in keeping that perfect pounding BASS rythym..kickin!!! He rocks it hard and sings some incredible backing vocals!!And also takes in some front vocals now &amp; then!! Come see for yourself!! \m/</div>
+</div> <!-- closes div.entry -->
+
+<div class='entry floatwrapper odd'>
+<div class='thumbnail'><a href='/@/TheBand/_photos/176/photo-full.jpg' data-lightbox='ejhuflyb' data-title=''><img src='/@/TheBand/_photos/176/photo-thumb.jpg' /></a></div>
+<div class='name heading'>Mike and the Monsters!!!</div>
+<div class='description'>GO TO OUR VIDEO PAGE TO CHECK OUT OUR NEW DEMO!!!</div>
+</div> <!-- closes div.entry -->
+
+</div> <!-- closes div.list -->
+</div> <!-- closes div.profile -->
+
+</div> <!-- closes div#content -->
+</div> <!-- closes #cms-container-content -->
+</div> <!-- closes div#content_wrapper -->
+<div id='teasers'>
+<div id='teaser_group_1'>
+<div class='teaser events_teaser odd n1 first' id='showdates_teaser'>
+<div class='teaser_heading'>Upcoming Shows</div>
+<div class='teaser_content'><table><tbody>
+<tr>
+	<td class="events_teaser_leftcell">
+		<div class="events_teaser_date">Aug 22</div>
+		<div class="events_teaser_time">TBD</div>
+	</td>
+	<td class="events_teaser_rightcell">
+		<div class="events_teaser_citystate">
+			
+		</div>
+		<div class="events_teaser_venue">Captain JP Cruise </div>
+	</td>
+</tr>
+
+<tr>
+	<td class="events_teaser_leftcell">
+		<div class="events_teaser_date">Aug 23</div>
+		<div class="events_teaser_time">TBA</div>
+	</td>
+	<td class="events_teaser_rightcell">
+		<div class="events_teaser_citystate">
+			NY
+		</div>
+		<div class="events_teaser_venue">Medcalf Acres Riverfront Campgrounds</div>
+	</td>
+</tr>
+
+<tr>
+	<td class="events_teaser_leftcell">
+		<div class="events_teaser_date">Aug 29</div>
+		<div class="events_teaser_time"></div>
+	</td>
+	<td class="events_teaser_rightcell">
+		<div class="events_teaser_citystate">
+			
+		</div>
+		<div class="events_teaser_venue">UNAVAILABLE </div>
+	</td>
+</tr>
+
+<tr>
+	<td class="events_teaser_leftcell">
+		<div class="events_teaser_date">Sep  5</div>
+		<div class="events_teaser_time"></div>
+	</td>
+	<td class="events_teaser_rightcell">
+		<div class="events_teaser_citystate">
+			Berne, NY
+		</div>
+		<div class="events_teaser_venue">Babbling Brooke </div>
+	</td>
+</tr>
+</tbody>
+</table>
+<div class='teaser_more_link'><a href='/showdates/'>All Upcoming Events</a></div>
+
+</div>
+</div> <!-- div.teaser#showdates_teaser -->
+<div class='teaser mailinglist_teaser even n2' id='mailinglist_teaser'>
+<div class='teaser_heading'>Join the Monster List</div>
+<div class='teaser_content'><div class='teaser_join_list_text'>Enter your email address:</div>
+<form method='post' action='/mailinglist/submit'><div><input type='text' name='email' size='15'  value=' your email here' class='address'  onfocus='javascript:clearFormField(this);' /><input type='hidden' name='list' value='themonsterslist' /><input type='submit' class='submit' value='GO!' /></div></form>
+</div>
+</div> <!-- div.teaser#mailinglist_teaser -->
+<div class='teaser contact_teaser odd n3' id='contact_teaser'>
+<div class='teaser_heading'>Booking Info</div>
+<div class='teaser_content'>
+<div class='teaser_entry'>
+<div class='teaser_title'>Booking Information</div>
+<div class='teaser_nottitle'>
+<div class='teaser_name'>Contact:Mike</div>
+<div class='teaser_phone'>518-664-2772 / michaeleannfb@gmail.com</div>
+<div class='teaser_email'><a href='mailto:booking@mikeandthemonsters.com '>booking@mikeandthemonsters.com </a></div>
+</div>
+
+</div>
+
+</div>
+</div> <!-- div.teaser#contact_teaser -->
+</div> <!-- div#teaser_group_1 -->
+</div> <!-- div#teasers -->
+<div id='footer'>
+<div id='footer_menu'>
+<div class='footer_menu_group' id='footer_menu_group_1'><span class='footer_menu_item odd n1 first' id='footer_menu_item_contact'><a href='/contact/'>Contact</a></span><span class='separator'>&bull;</span><span class='footer_menu_item even n2' id='footer_menu_item_photos'><a href='/photos/'>Photos</a></span><span class='separator'>&bull;</span><span class='footer_menu_item odd n3' id='footer_menu_item_showdates'><a href='/showdates/'>Show&nbsp;Dates</a></span><span class='separator'>&bull;</span><span class='footer_menu_item even n4 last' id='footer_menu_item_guestbook'><a href='/guestbook/'>Guestbook</a></span></div> <!-- div#footer_menu_group_1 -->
+</div>
+<div id='site_footer'>Visit Mike and the Monsters at<br />https://www.facebook.com/pages/Mike-and-the-Monsters/42542550709?sk=photos_stream</div>
+</div> <!-- closes div#footer -->
+</div> <!-- closes div#header_content_footer_wrapper_2 -->
+</div> <!-- closes div#header_content_footer_wrapper -->
+<div id='navicon'><a href='javascript:void(0)' style='display:block;'><svg height="32px" width="32px" viewBox="0 0 32 32"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg></a></div>
+</body>
+</html>
+
+
+

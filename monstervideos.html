@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Mike and the Monsters</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!--
+<script src="/!/static/jslib/modernizr/2.6.2/modernizr.min.js"></script>
+-->
+<script src="/!/static/jslib/jquery/3.3.1/jquery.min.js"></script>
+<script src="/!/static/jslib/jquery-ui/1.12.1/jquery-ui.min.js"></script>
+<script src="/!/static/jslib/sidr/2.2.1/jquery.sidr.js"></script>
+<link rel="stylesheet" href="/!/static/jslib/sidr/2.2.1/jquery.sidr.light.css" />
+<script src="/!/static/jslib/mediaelement/4.2.7/build/mediaelement-and-player.min.js"></script>
+<link rel="stylesheet" href="/!/static/jslib/mediaelement/4.2.7/build/mediaelementplayer.css" />
+<!--
+<script src="/!/static/jslib/mediaelement-playlist/A/mep-feature-playlist.js"></script>
+<link rel="stylesheet" href="/!/static/jslib/mediaelement-playlist/A/mep-feature-playlist.css" />
+-->
+<script src="/!/static/jslib/lightbox/2.10.0/dist/js/lightbox.min.js"></script>
+<link rel="stylesheet" href="/!/static/jslib/lightbox/2.10.0/dist/css/lightbox.min.css" />
+<script src="/!/static/jslib/font-awesome/5.0.2/svg-with-js/js/fontawesome-all.min.js"></script>
+<script src="/!/static/cms/2.0.2/functions.js"></script>
+<link rel='stylesheet' href='/!/static/cms/2.0.2/core.css' />
+<link rel='stylesheet' href='/!/static/cms/2.0.2/teasers.css' />
+<link rel='stylesheet' href='/monstervideos/style.css' />
+<script>
+if ( typeof UsersModule == 'object' ) {
+UsersModule.allowPasswordRetrieval=true;
+UsersModule.allowAutoRegistration=true;
+}
+</script>
+<style>
+@font-face { font-family: main-heading-font; src: url(/@/SiteBuilder/_skins/17/fonts/main_heading.ttf)}
+div#header h1#main_heading { font-family: main-heading-font; font-size: 30px; font-weight: normal; color: #000; transform: rotate(-2deg); }
+@font-face { font-family: menu-font; src: url(/@/SiteBuilder/_skins/17/fonts/menu.ttf) }
+div#main_links a, div#main_menu a { text-decoration: none; font-family: menu-font; display: inline-block; font-size: 12px; color: #fff; }
+div#main_links a:hover, div#main_menu a:hover { color: silver; text-decoration: underline; }
+div#main_links a.menu-item-selected { color: silver; }
+@font-face { font-family: page-heading-font; src: url(/@/SiteBuilder/_skins/17/fonts/page_heading.ttf) }
+h2 { font-family: page-heading-font; font-size: 24px; color: #ff0000; }
+@font-face { font-family: teaser-heading-font; src: url(/@/SiteBuilder/_skins/17/fonts/teaser.ttf) }
+div#teasers div.teaser_heading { font-family: teaser-heading-font; font-weight: normal; font-size: 14px; color: #000; }
+div#site_photo { background-repeat: no-repeat; background-position: top center; background-size: cover; }
+</style>
+<link rel='stylesheet' href='/@/SiteBuilder/_skins/17/style/_main.css' media='screen' />
+</head><body class='video page' id='monstervideos'>
+<div id='overlayer' style='display:none'><div id='overlayer_window'><div id='overlayer_content'></div><div id='overlayer_close'><a href='javascript:void(0)' onclick='javascript:closeOverlayer();return false;'>CLOSE</a></div></div></div>
+<div id='header_content_footer_wrapper'>
+<div id='header_content_footer_wrapper_2'>
+<div id='site_photo'  style='width:253px; background-image: url(/@/SiteBuilder/_skins/17/images/matte/overlay.png), url(/@/SiteBuilder/_skins/17/.custom/photos/MAIN-scaled.jpg); background-size:cover,contain; '><img style='visibility:hidden' src='/@/SiteBuilder/_skins/17/.custom/photos/MAIN-scaled.jpg' /></div>
+<div id='header'>
+<h1 id='main_heading'><span><a href='/theband/'>Mike and the Monsters</a></span></h1>
+</div> <!-- div#header -->
+<div id='main_links'>
+<ul class='main_link_group' id='main_link_group_1'>
+<li class='main_link' id='theband_main_link'><a href='/theband/' >The&nbsp;Band</a></li>
+<li class='main_link' id='showdates_main_link'><a href='/showdates/' >Show&nbsp;Dates</a></li>
+<li class='main_link' id='songlist_main_link'><a href='/songlist/' >Song&nbsp;List</a></li>
+<li class='main_link' id='promokitsandposters_main_link'><a href='/promokitsandposters/' >Press&nbsp;Kit&nbsp;and&nbsp;Posters</a></li>
+<li class='main_link' id='photos_main_link'><a href='/photos/' >Photos</a></li>
+<li class='main_link selected' id='monstervideos_main_link'><a href='/monstervideos/' class='menu-item-selected' >Videos</a></li>
+<li class='main_link' id='guestbook_main_link'><a href='/guestbook/' >Guestbook</a></li>
+<li class='main_link' id='monsterblog_main_link'><a href='/monsterblog/' >Monster&nbsp;Blog</a></li>
+<li class='main_link' id='monsterlinks_main_link'><a href='/monsterlinks/' >Links</a></li>
+<li class='main_link' id='contact_main_link'><a href='/contact/' >Contact</a></li>
+</ul> <!-- ul#main_link_group_1 -->
+</div> <!-- div#main_links (div#main_menu for skeleton 1) -->
+<div id='content_wrapper'>
+<div id='cms-container-content'>
+<div id='content'>
+<h2 id='page_title'>Monster Videos</h2>
+
+<div class='video thumbs'>
+<table><tr>
+<td class='entry'></td>
+</tr>
+<tr>
+<td class='entry'><table cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff"><tr><td><a href="http://www.smilebox.com/play/4e4451784f4463774e54673d0d0a&blogview=true&campaign=blog_playback_link&partner=googlee" target="_blank"><img width="420" height="330" alt="Click to play this Smilebox slideshow" src="http://www.smilebox.com/snap/4e4451784f4463774e54673d0d0a.jpg" style="border: medium none ;"/></a></td></tr><tr><td><a href="http://www.smilebox.com?partner=googlee&campaign=blog_snapshot" target="_blank"><img width="420" height="46" alt="Create your own slideshow - Powered by Smilebox" src="http://www.smilebox.com/globalImages/blogInstructions/blogLogoSmilebox.gif" style="border: medium none ;"/></a></td></tr><tr><td align="center">Customize your own free slideshow</td></tr></table><div class='title'>Mike and the Monsters - DEMO (Sweet Child of Mine)</div>
+</td>
+</tr>
+<tr>
+<td class='entry'><table cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff"><tr><td><a href="http://www.smilebox.com/play/4e4451784e6a4d784d6a453d0d0a&blogview=true&campaign=blog_playback_link&partner=googlee" target="_blank"><img width="420" height="330" alt="Click to play this Smilebox slideshow" src="http://www.smilebox.com/snap/4e4451784e6a4d784d6a453d0d0a.jpg" style="border: medium none ;"/></a></td></tr><tr><td><a href="http://www.smilebox.com?partner=googlee&campaign=blog_snapshot" target="_blank"><img width="420" height="46" alt="Create your own slideshow - Powered by Smilebox" src="http://www.smilebox.com/globalImages/blogInstructions/blogLogoSmilebox.gif" style="border: medium none ;"/></a></td></tr><tr><td align="center">Make a free photo slideshow</td></tr></table><div class='title'>Mike and the Monsters -DEMO-(Lady GaGa,AC/DC,PINK!,Carrie Underwood,4 NON Blondes)</div>
+<div id='zarbegvh' style='display:none;'><div class='overlay_heading'>Mike and the Monsters -DEMO-(Lady GaGa,AC/DC,PINK!,Carrie Underwood,4 NON Blondes)</div>
+Mike and the Monsters Cover Demo:<br />Bad Romance(Lady GaGa)<br />Highway to hell(AC/DC)<br />Raise your glass(PINK!)<br />Before he Cheats (carrie underwood)<br />Whats up (4 non blondes)</div>
+<div class='desclink'><a href='javascript:void(0)' onclick='javascript:oOWEC("zarbegvh",{width:350});return false;'>Info</a></div>
+</td>
+</tr>
+<tr>
+<td class='entry'>https://www.facebook.com/pages/Mike-and-the-Monster  s/42542550709?sk=photos_stream
+
+(Copy & paste the above address in your web browser!!)<div class='title'>Mike and the Monsters /Facebook Page</div>
+<div id='dayjnzsh' style='display:none;'><div class='overlay_heading'>Mike and the Monsters /Facebook Page</div>
+go to our facebook page to see some video!!!</div>
+<div class='desclink'><a href='javascript:void(0)' onclick='javascript:oOWEC("dayjnzsh",{width:350});return false;'>Info</a></div>
+</td>
+</tr>
+</table></div> <!-- closes div.video.thumbs -->
+
+</div> <!-- closes div#content -->
+</div> <!-- closes #cms-container-content -->
+</div> <!-- closes div#content_wrapper -->
+<div id='teasers'>
+<div id='teaser_group_1'>
+<div class='teaser events_teaser odd n1 first' id='showdates_teaser'>
+<div class='teaser_heading'>Upcoming Shows</div>
+<div class='teaser_content'><table><tbody>
+<tr>
+	<td class="events_teaser_leftcell">
+		<div class="events_teaser_date">Aug 22</div>
+		<div class="events_teaser_time">TBD</div>
+	</td>
+	<td class="events_teaser_rightcell">
+		<div class="events_teaser_citystate">
+			
+		</div>
+		<div class="events_teaser_venue">Captain JP Cruise </div>
+	</td>
+</tr>
+
+<tr>
+	<td class="events_teaser_leftcell">
+		<div class="events_teaser_date">Aug 23</div>
+		<div class="events_teaser_time">TBA</div>
+	</td>
+	<td class="events_teaser_rightcell">
+		<div class="events_teaser_citystate">
+			NY
+		</div>
+		<div class="events_teaser_venue">Medcalf Acres Riverfront Campgrounds</div>
+	</td>
+</tr>
+
+<tr>
+	<td class="events_teaser_leftcell">
+		<div class="events_teaser_date">Aug 29</div>
+		<div class="events_teaser_time"></div>
+	</td>
+	<td class="events_teaser_rightcell">
+		<div class="events_teaser_citystate">
+			
+		</div>
+		<div class="events_teaser_venue">UNAVAILABLE </div>
+	</td>
+</tr>
+
+<tr>
+	<td class="events_teaser_leftcell">
+		<div class="events_teaser_date">Sep  5</div>
+		<div class="events_teaser_time"></div>
+	</td>
+	<td class="events_teaser_rightcell">
+		<div class="events_teaser_citystate">
+			Berne, NY
+		</div>
+		<div class="events_teaser_venue">Babbling Brooke </div>
+	</td>
+</tr>
+</tbody>
+</table>
+<div class='teaser_more_link'><a href='/showdates/'>All Upcoming Events</a></div>
+
+</div>
+</div> <!-- div.teaser#showdates_teaser -->
+<div class='teaser mailinglist_teaser even n2' id='mailinglist_teaser'>
+<div class='teaser_heading'>Join the Monster List</div>
+<div class='teaser_content'><div class='teaser_join_list_text'>Enter your email address:</div>
+<form method='post' action='/mailinglist/submit'><div><input type='text' name='email' size='15'  value=' your email here' class='address'  onfocus='javascript:clearFormField(this);' /><input type='hidden' name='list' value='themonsterslist' /><input type='submit' class='submit' value='GO!' /></div></form>
+</div>
+</div> <!-- div.teaser#mailinglist_teaser -->
+<div class='teaser contact_teaser odd n3' id='contact_teaser'>
+<div class='teaser_heading'>Booking Info</div>
+<div class='teaser_content'>
+<div class='teaser_entry'>
+<div class='teaser_title'>Booking Information</div>
+<div class='teaser_nottitle'>
+<div class='teaser_name'>Contact:Mike</div>
+<div class='teaser_phone'>518-664-2772 / michaeleannfb@gmail.com</div>
+<div class='teaser_email'><a href='mailto:booking@mikeandthemonsters.com '>booking@mikeandthemonsters.com </a></div>
+</div>
+
+</div>
+
+</div>
+</div> <!-- div.teaser#contact_teaser -->
+</div> <!-- div#teaser_group_1 -->
+</div> <!-- div#teasers -->
+<div id='footer'>
+<div id='footer_menu'>
+<div class='footer_menu_group' id='footer_menu_group_1'><span class='footer_menu_item odd n1 first' id='footer_menu_item_contact'><a href='/contact/'>Contact</a></span><span class='separator'>&bull;</span><span class='footer_menu_item even n2' id='footer_menu_item_photos'><a href='/photos/'>Photos</a></span><span class='separator'>&bull;</span><span class='footer_menu_item odd n3' id='footer_menu_item_showdates'><a href='/showdates/'>Show&nbsp;Dates</a></span><span class='separator'>&bull;</span><span class='footer_menu_item even n4 last' id='footer_menu_item_guestbook'><a href='/guestbook/'>Guestbook</a></span></div> <!-- div#footer_menu_group_1 -->
+</div>
+<div id='site_footer'>Visit Mike and the Monsters at<br />https://www.facebook.com/pages/Mike-and-the-Monsters/42542550709?sk=photos_stream</div>
+</div> <!-- closes div#footer -->
+</div> <!-- closes div#header_content_footer_wrapper_2 -->
+</div> <!-- closes div#header_content_footer_wrapper -->
+<div id='navicon'><a href='javascript:void(0)' style='display:block;'><svg height="32px" width="32px" viewBox="0 0 32 32"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg></a></div>
+</body>
+</html>
+
+
+

@@ -1,0 +1,15 @@
+/!/static/cms/2.0.2/core.css
+/!/static/cms/2.0.2/functions.js
+/!/static/cms/2.0.2/teasers.css
+/!/static/jslib/font-awesome/5.0.2/svg-with-js/js/fontawesome-all.min.js
+/!/static/jslib/jquery-ui/1.12.1/jquery-ui.min.js
+/!/static/jslib/jquery/3.3.1/jquery.min.js
+/!/static/jslib/lightbox/2.10.0/dist/css/lightbox.min.css
+/!/static/jslib/lightbox/2.10.0/dist/js/lightbox.min.js
+/!/static/jslib/mediaelement-playlist/A/mep-feature-playlist.css
+/!/static/jslib/mediaelement-playlist/A/mep-feature-playlist.js
+/!/static/jslib/mediaelement/4.2.7/build/mediaelement-and-player.min.js
+/!/static/jslib/mediaelement/4.2.7/build/mediaelementplayer.css
+/!/static/jslib/modernizr/2.6.2/modernizr.min.js
+/!/static/jslib/sidr/2.2.1/jquery.sidr.js
+/!/static/jslib/sidr/2.2.1/jquery.sidr.light.css
